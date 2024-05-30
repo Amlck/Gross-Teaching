@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gross Anatomy Exam Practice</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://apis.google.com/js/api.js"></script>
   <script src="scripts.js" defer></script>
 </head>
 <body>
@@ -18,7 +19,9 @@
   </header>
   <main>
     <h2>Welcome to the Gross Anatomy Exam Practice Tool</h2>
-    <button id="start-button">Start Exam</button>
+    <button id="authorize_button">Authorize</button>
+    <button id="signout_button" style="display:none;">Sign Out</button>
+    <button id="start-button" style="display:none;">Start Exam</button>
     <div id="question-section" style="display: none;">
       <img id="question-image" src="" alt="Anatomy Image">
       <p id="question-text"></p>

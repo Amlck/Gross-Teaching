@@ -1,5 +1,5 @@
-const sheetId = 'YOUR_SHEET_ID';
-const apiKey = 'YOUR_API_KEY';
+const sheetId = '1paAbB0DfEziVPp5X5s5TOfyvHjhHszGk9TOd81BuL5o';
+const apiKey = 'AIzaSyBVc-qKWRPRO4HDAN6C8sR0aONw6BwTZm0';
 let questions = [];
 let currentQuestionIndex = 0;
 
